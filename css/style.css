@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: #121212;
+  color: #333;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "BBH Hegarty", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+h3 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 21px;
+}
+
+ul {
+  color: white;
+  font-size: 17px;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #111;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+input[type="button"] {
+  background-color: #0c0b0b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
